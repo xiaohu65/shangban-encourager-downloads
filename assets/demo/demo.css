@@ -1,0 +1,62 @@
+html,
+body {
+  overflow: hidden;
+}
+
+.app-header .text-button[inert] {
+  cursor: default;
+  pointer-events: none;
+}
+
+/* The parent scales this 400px canvas; keep the final visible type at 12px+. */
+:root {
+  --demo-min-font-size: 18px;
+  font-size: max(13px, var(--demo-min-font-size));
+}
+
+h2,
+.text-button,
+.countdown,
+.button {
+  font-size: max(13px, var(--demo-min-font-size));
+}
+
+.brand {
+  font-size: max(15px, var(--demo-min-font-size));
+}
+
+.work-status h1 {
+  font-size: max(28px, var(--demo-min-font-size));
+}
+
+.income {
+  font-size: max(45px, var(--demo-min-font-size));
+}
+
+.currency {
+  font-size: max(32px, var(--demo-min-font-size));
+}
+
+.current-time,
+.earnings h2,
+.speed,
+.goal,
+.hours {
+  font-size: max(12px, var(--demo-min-font-size));
+}
+
+.month-income {
+  font-size: max(18px, var(--demo-min-font-size));
+}
+
+.caption,
+.summary {
+  font-size: max(11px, var(--demo-min-font-size));
+}
+
+.summary .caption,
+.paused,
+.notice,
+.preview-note {
+  font-size: max(10px, var(--demo-min-font-size));
+}
